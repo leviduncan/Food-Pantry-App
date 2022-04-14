@@ -1,0 +1,22 @@
+.promo-container {
+    width: 100%;
+    background-color: $bg-gold;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.modal-content {
+    top: 5px;
+    border-radius: unset;
+    box-shadow: $bShadow;
+
+    .modal-header {
+        border-bottom: unset;
+    }
+}
+
+

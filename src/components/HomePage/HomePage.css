@@ -1,0 +1,31 @@
+.m1a {
+  background-image: unset;
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 40vh;
+  color: unset;
+}
+
+@media (min-width: 992px) {
+  .m1a {
+    background-image: url("../../assets/pizza_img.png");
+    background-size: contain;
+    color: unset;
+  }
+}
+
+@media (min-width: 1200px) {
+  .m1a {
+    height: 60vh;
+  }
+}
+
+.m2a {
+  background-color: #fff;
+}
+
+.m3a {
+  background-color: #FFF5E4;
+}
+/*# sourceMappingURL=HomePage.css.map */

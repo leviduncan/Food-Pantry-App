@@ -1,0 +1,44 @@
+@import '../../root.scss';
+
+
+.navmenu {
+    position: fixed;
+    top: 34px;
+    padding: 20px;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgb(238, 238, 238);
+
+
+    @media (min-width: 992px) {
+        background-color: transparent;
+        
+    }
+
+    .navbar-brand img{
+        width:160px;
+        margin-left:0;
+
+        @media (min-width: 577px) {
+            width:200px;
+            margin-left:20px;
+        }
+    }
+    
+    .navbar-nav .nav-link {
+        color: rgb(168, 168, 168);
+
+        &:hover {
+            border-bottom: $bg-gold solid 2px ;
+            color: $bg-gold;
+        }
+
+    }
+}   
+ .active {
+        background-color: rgba(255, 255, 255, 0.788);
+        backdrop-filter: blur(10px);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.20);
+
+    }

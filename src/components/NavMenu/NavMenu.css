@@ -1,0 +1,45 @@
+.navmenu {
+  position: fixed;
+  top: 34px;
+  padding: 20px;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #eeeeee;
+}
+
+@media (min-width: 992px) {
+  .navmenu {
+    background-color: transparent;
+  }
+}
+
+.navmenu .navbar-brand img {
+  width: 160px;
+  margin-left: 0;
+}
+
+@media (min-width: 577px) {
+  .navmenu .navbar-brand img {
+    width: 200px;
+    margin-left: 20px;
+  }
+}
+
+.navmenu .navbar-nav .nav-link {
+  color: #a8a8a8;
+}
+
+.navmenu .navbar-nav .nav-link:hover {
+  border-bottom: #F8A22F solid 2px;
+  color: #F8A22F;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.788);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+/*# sourceMappingURL=NavMenu.css.map */

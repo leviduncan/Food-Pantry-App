@@ -1,0 +1,33 @@
+@import '../../root.scss';
+
+.m1a {
+    background-image: unset;
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 40vh;
+    color: unset;
+
+    @media (min-width: 768px) {
+        
+    }
+
+    @media (min-width: 992px) {
+        background-image: url('../../assets/pizza_img.png');
+        background-size: contain;
+        color: unset;
+    }
+
+    @media (min-width: 1200px) {
+        height: 60vh;
+    }
+}
+
+.m2a {
+    background-color: #fff;
+}
+
+.m3a {
+    background-color: $lt-primary;
+}
+
